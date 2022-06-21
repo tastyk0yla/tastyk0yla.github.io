@@ -102,7 +102,7 @@ h1 {
 }
 
 .button-call{
-    background-image: url(page-header/menu/__button/call.svg);
+    background-image: url(..\page-header\menu\__button\call.svg);
 }
 .button-chat{
     background-image: url(page-header/menu/__button/chat.svg);
