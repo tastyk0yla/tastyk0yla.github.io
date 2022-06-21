@@ -98,7 +98,7 @@ h1 {
 
 
 .button-burger{
-    background-image: url(page-header/menu/__button/burger.svg);
+    background-image: url(../page-header/menu/__button/burger.svg);
 }
 
 .button-call{
