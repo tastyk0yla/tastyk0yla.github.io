@@ -98,25 +98,25 @@ h1 {
 
 
 .button-burger{
-    background-image: url(../page-header/menu/__button/burger.svg);
+    background-image: url(./page-header/menu/__button/burger.svg);
 }
 
 .button-call{
-    background-image: url(..\page-header\menu\__button\call.svg);
+    background-image: url(./page-header/menu/__button/call.svg);
 }
 .button-chat{
-    background-image: url(page-header/menu/__button/chat.svg);
+    background-image: url(./page-header/menu/__button/chat.svg);
 }
 .button-profile{
-    background-image: url(page-header/menu/__button/profile.svg);
+    background-image: url(./page-header/menu/__button/profile.svg);
 }
 
 .button-check-status{
-    background-image: url(page-header/menu/__button/checkstatus.svg);
+    background-image: url(./page-header/menu/__button/checkstatus.svg);
 }
 
 .button-repair{
-    background-image: url(page-header/menu/__button/repair.svg);
+    background-image: url(./page-header/menu/__button/repair.svg);
 }
 
 .button-check-status__image{
