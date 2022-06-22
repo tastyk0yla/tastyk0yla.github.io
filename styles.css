@@ -98,25 +98,25 @@ h1 {
 
 
 .button-burger{
-    background-image: url(./page-header/menu/__button/burger.svg);
+    background-image: url(./images/burger.svg);
 }
 
 .button-call{
-    background-image: url(./page-header/menu/__button/call.svg);
+    background-image: url(./images/call.svg);
 }
 .button-chat{
-    background-image: url(./page-header/menu/__button/chat.svg);
+    background-image: url(./images/chat.svg);
 }
 .button-profile{
-    background-image: url(./page-header/menu/__button/profile.svg);
+    background-image: url(./images/profile.svg);
 }
 
 .button-check-status{
-    background-image: url(./page-header/menu/__button/checkstatus.svg);
+    background-image: url(./images/checkstatus.svg);
 }
 
 .button-repair{
-    background-image: url(./page-header/menu/__button/repair.svg);
+    background-image: url(./images/repair.svg);
 }
 
 .button-check-status__image{
@@ -139,7 +139,7 @@ h1 {
 }
 .title__text::before{
     content: "";
-    background-image: url(page-content/__title/highlight.svg);
+    background-image: url(./images/highlight.svg);
     width: 4px;
     height: 40px;
     margin-right: 12px;
@@ -233,7 +233,7 @@ h1 {
 
 .button__text::before{
     content: "";
-    background-image: url(page-content/about/__button/expand.svg);
+    background-image: url(./images/expand.svg);
     margin-right: 8px;
     width: 24px;
     height: 24px;
