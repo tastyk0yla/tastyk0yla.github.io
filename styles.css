@@ -43,7 +43,6 @@ h1 {
 
 .menu{
     display: flex;
-    box-sizing: border-box;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -94,29 +93,6 @@ h1 {
     background-color: #EAEAEA;
     margin-right: 4px;
 
-}
-
-
-.button-burger{
-    background-image: url(./images/burger.svg);
-}
-
-.button-call{
-    background-image: url(./images/call.svg);
-}
-.button-chat{
-    background-image: url(./images/chat.svg);
-}
-.button-profile{
-    background-image: url(./images/profile.svg);
-}
-
-.button-check-status{
-    background-image: url(./images/checkstatus.svg);
-}
-
-.button-repair{
-    background-image: url(./images/repair.svg);
 }
 
 .button-check-status__image{
@@ -253,14 +229,6 @@ h1 {
 .about__image img {
     max-width: 320px;
 }
-
-
-
-
-
-
-
-
 
 
 
