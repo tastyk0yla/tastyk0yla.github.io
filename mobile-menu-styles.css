@@ -1,0 +1,136 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 24px;
+    color: #1B1C21;
+    background-color: #F8F8F8;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.button { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0px;
+    background-color: #FF3E79;
+    transition: transform 0.5s ease;
+}
+
+.button:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.menu-list-item-link:hover{
+    opacity: 0.8;
+}
+
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 1024px;
+    box-shadow: 
+        -2px 0px 4px rgba(69, 79, 126, 0.02), 
+        16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    align-items: center;
+    width: 320px;
+    height: 88px;
+    box-sizing: border-box;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.header-menu__logo{
+    width: 96.55px;
+    height: 50.81px;
+    margin-right: auto;
+}
+
+.menu-list-item-link {
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.menu-main-list {
+    margin-top: 32px;
+    padding-left: 24px;
+}
+
+.menu-main-list__item{
+    margin-bottom: 32px;
+}
+
+.link-active{
+    color: #7E7E82;
+}
+
+.menu-main-list__item-active {
+    display: flex;
+    align-items: center;
+}
+.menu-main-list__item-active::before {
+    content: '';
+    width: 4px;
+    height: 32px;
+    border-radius: 0 50% 50% 0;
+    background-color: #41F6D7;
+    transform: translateX(-24px);
+    margin-right: -4px;
+}
+
+.menu-footer{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-bottom: 32px;
+}
+
+.footer-menu-list{
+    display: flex;
+    gap: 16px;
+}
+
+.contacts{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contacts__number{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.lang-switcher-list{
+    margin-top: 40px;
+    display: flex;
+    gap: 7px;
+}
