@@ -31,6 +31,7 @@ button{
     border-radius: 50%;
     padding: 0;
     border: 0px;
+    cursor: pointer;
 }
 .button { 
     display: flex;
@@ -176,11 +177,13 @@ button{
     border: 0px;
     background-color: rgba(0, 0, 0, 0);
     letter-spacing: -0.6px;
+    margin: 2px;
 }
-
-.menu-slider-button-active{
+.menu-slider-button:hover,
+.menu-slider-button:focus,
+.menu-slider-button:active{
     background-color: #fff;
-    border: 2px solid #B8FFEC;
+    outline: 2px solid #B8FFEC;
 }
 
 .about{
@@ -216,22 +219,14 @@ button{
 .article__text-p3{
     display: none;
 }
-.article__button{
+.expand-button{
     display: flex;
     max-height: 24px;
     text-decoration: none;
-
+    gap: 8px;
     padding-left: 0;
     border: 0px;
     background-color: rgba(0, 0, 0, 0);
-}
-
-.button__text::before{
-    content: "";
-    background-image: url(./images/expand.svg);
-    margin-right: 8px;
-    width: 24px;
-    height: 24px;
 }
 
 .button__text{

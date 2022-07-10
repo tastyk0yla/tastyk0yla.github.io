@@ -2,15 +2,21 @@ html,
 body {
     margin: 0;
     padding: 0;
+    height: 100%;
+    width: 320px;
 }
+a,
+button {
+    cursor: pointer;
+}
+
 
 body {
     font-family: "TT Lakes", sans-serif;
     font-size: 16px;
     font-weight: medium;
     line-height: 24px;
-    color: #1B1C21;
-    background-color: #F8F8F8;
+    color: #1B1C21;   
 }
 
 ul {
@@ -40,18 +46,15 @@ p {
     opacity: 0.8;
 }
 
-.menu-list-item-link:hover{
-    opacity: 0.8;
-}
-
 .mobile-menu{
     display: flex;
     flex-direction: column;
-    width: 320px;
-    height: 1024px;
+    height: 100%;
+    background-color: #F8F8F8;
     box-shadow: 
         -2px 0px 4px rgba(69, 79, 126, 0.02), 
         16px 0px 52px rgba(14, 24, 80, 0.2);
+    
 }
 
 .header-menu {
@@ -62,8 +65,8 @@ p {
     width: 320px;
     height: 88px;
     box-sizing: border-box;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 24px;
+    
 }
 .header-menu__logo{
     width: 96.55px;
@@ -74,24 +77,41 @@ p {
 .menu-list-item-link {
     text-decoration: none;
     color: #1B1C21;
+    margin-bottom: 16px;
+}
+.menu-list-item-link:active,
+.menu-list-item-link:focus,
+.menu-list-item-link:hover{
+    color: #7E7E82;
 }
 
 .menu-main-list {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
     margin-top: 32px;
     padding-left: 24px;
 }
 
 .menu-main-list__item{
-    margin-bottom: 32px;
+    display: flex;
+    align-items: flex-start;
+    max-height: 56px;
+    flex-grow: 2;
 }
 
 .link-active{
     color: #7E7E82;
 }
 
+.link-active:focus,
+.link-active:hover{
+    color: #1B1C21;
+}
+
 .menu-main-list__item-active {
     display: flex;
-    align-items: center;
+    
 }
 .menu-main-list__item-active::before {
     content: '';
@@ -99,7 +119,7 @@ p {
     height: 32px;
     border-radius: 0 50% 50% 0;
     background-color: #41F6D7;
-    transform: translateX(-24px);
+    transform: translateX(-24px) translateY(-6px);
     margin-right: -4px;
 }
 
@@ -109,6 +129,7 @@ p {
     flex-direction: column;
     padding-left: 24px;
     padding-bottom: 32px;
+    
 }
 
 .footer-menu-list{
@@ -122,11 +143,17 @@ p {
     flex-direction: column;
     gap: 12px;
 }
+.contacts__email {
+    color: #1B1C21;
+    text-decoration: none;
+}
 
 .contacts__number{
+    color: #1B1C21;
     font-size: 24px;
     font-weight: bold;
     line-height: 32px;
+    text-decoration: none;
 }
 
 .lang-switcher-list{
