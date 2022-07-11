@@ -25,13 +25,17 @@ h1 {
     margin-block-end: 0em;
 }
 
+a,
+button {
+    cursor: pointer;
+}
+
 button{
     display: flex;
     background-color: transparent;
     border-radius: 50%;
     padding: 0;
     border: 0px;
-    cursor: pointer;
 }
 .button { 
     display: flex;
