@@ -138,7 +138,7 @@ button{
 }
 .title__text::before{
     content: "";
-    background-image: url(./images/highlight.svg);
+    background-image: url(../images/highlight.svg);
     width: 4px;
     height: 40px;
     margin-right: 12px;
